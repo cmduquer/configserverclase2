@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+          name: app-config-repo
+
+  cloud:
+    config:
+      server:
+          git: 
+            uri:  file://${user.home}/Documents/workspace-spring-tool-suite-4-4.2.2.RELEASE/app-config-repo/
